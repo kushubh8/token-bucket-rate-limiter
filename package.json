@@ -1,0 +1,21 @@
+{
+  "name": "token-bucket-rate-limiter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone in-memory token bucket rate limiter",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha \"specs/**/*.spec.js\""
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rateLimitsPerEndpoint": [
+    {
+      "endpoint": "GET /user/:id",
+      "burst": 5,
+      "sustained": 120
+    },
+    {
+      "endpoint": "POST /orders",
+      "burst": 10,
+      "sustained": 60
+    }
+  ]
+}
