@@ -1,6 +1,6 @@
 # Token Bucket Rate Limiter
 
-A standalone, internal Node.js 16 + Express service that tracks request credits per configured route template.
+A small internal rate-limiting service built with Node.js and Express. It maintains an in-memory token bucket for each configured endpoint.
 
 ## Quick start
 
